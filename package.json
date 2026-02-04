@@ -6,6 +6,9 @@
   "engines": {
     "vscode": "^1.96.0"
   },
+  "scripts": {
+    "build": "node scripts/build-theme.mjs"
+  },
   "categories": [
     "Themes"
   ],
@@ -17,5 +20,8 @@
         "path": "./themes/dark-theme.json"
       }
     ]
+  },
+  "dependencies": {
+    "@vscode/vsce": "^3.7.1"
   }
 }
